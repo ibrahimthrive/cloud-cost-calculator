@@ -1,0 +1,71 @@
+/* Branding / layout polish on top of the Streamlit theme in .streamlit/config.toml */
+
+.block-container {
+    padding-top: 1.5rem;
+    max-width: 1200px;
+}
+
+.cc-hero {
+    background: linear-gradient(135deg, #1062E0 0%, #0B3D91 100%);
+    color: #ffffff;
+    padding: 1.6rem 2rem;
+    border-radius: 14px;
+    margin-bottom: 1.4rem;
+}
+
+.cc-hero h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.cc-hero p {
+    margin: 0.3rem 0 0 0;
+    opacity: 0.9;
+    font-size: 0.95rem;
+}
+
+.cc-metric-card {
+    background: #F4F7FB;
+    border: 1px solid #E3E9F1;
+    border-radius: 12px;
+    padding: 1rem 1.2rem;
+    text-align: left;
+}
+
+.cc-metric-card .label {
+    color: #6C757D;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.cc-metric-card .value {
+    color: #1B1F24;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 0.1rem;
+}
+
+.cc-badge {
+    display: inline-block;
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    margin-right: 0.3rem;
+}
+
+.cc-badge-high { background: #FDEBEC; color: #C0392B; }
+.cc-badge-medium { background: #FFF4E0; color: #B8860B; }
+.cc-badge-low { background: #E8F6EE; color: #1E7E45; }
+
+.cc-suggestion-card {
+    border-left: 4px solid #1062E0;
+    background: #F9FBFD;
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.7rem;
+}
+
+footer {visibility: hidden;}
